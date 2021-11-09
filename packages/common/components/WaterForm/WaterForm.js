@@ -70,7 +70,7 @@ const WaterForm = (props) => {
           rules={[
             {
               required: true,
-              message: '请输入密码',
+              message: '请输入密码34543534534534',
             },
           ]}
       >
