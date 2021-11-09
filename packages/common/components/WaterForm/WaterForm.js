@@ -25,6 +25,10 @@ const tailLayout = {
  */
 
 const WaterForm = (props) => {
+  /**
+   * 第二次版本提交
+   * @param values
+   */
   const onFinish = (values) => {
     props.onChangeWaterForm({onFinish:values})
     console.log('Success:--组件', values)
