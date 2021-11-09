@@ -2,6 +2,7 @@
 
 # dependencies
 **/node_modules
+**/.idea
 
 # production
 **/build
@@ -18,3 +19,5 @@ yarn-debug.log*
 yarn-error.log*
 
 **/.eslintcache
+/packages/test-admin-site/
+/packages/test-customer-site/

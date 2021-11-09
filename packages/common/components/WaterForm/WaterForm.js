@@ -17,6 +17,13 @@ const tailLayout = {
   },
 };
 
+/**
+ * 第一次版本提交
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
+
 const WaterForm = (props) => {
   const onFinish = (values) => {
     props.onChangeWaterForm({onFinish:values})
